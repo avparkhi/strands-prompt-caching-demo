@@ -23,7 +23,8 @@ Claude_Prompt_Caching/
 │   ├── 03_two_prompts.py             # Two different prompts = two independent caches
 │   ├── 04_multi_turn.py              # Cache savings grow across conversation turns
 │   ├── 05_agent_loop.py              # Caching in tool-chaining agent loops
-│   └── 06_explicit_vs_automatic.py   # Side-by-side comparison of all 3 approaches
+│   ├── 06_explicit_vs_automatic.py   # Side-by-side comparison of all 3 approaches
+│   └── 07_databricks_caching.py      # All 3 approaches on Databricks (OpenAI-compatible)
 ├── agents/
 │   ├── __init__.py
 │   ├── research_agent.py             # Research sub-agent tool
@@ -53,6 +54,7 @@ python examples/03_two_prompts.py
 python examples/04_multi_turn.py
 python examples/05_agent_loop.py
 python examples/06_explicit_vs_automatic.py
+python examples/07_databricks_caching.py          # requires Databricks credentials
 ```
 
 ## Three Caching Approaches
